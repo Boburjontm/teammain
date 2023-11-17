@@ -1,0 +1,78 @@
+/* start normalize */
+body{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+  list-style: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+/* End minimalize */
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.header__lang{
+    display: flex;
+}
+.language{
+    color: #262626;
+font-family: Proxima Nova;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+}
+.money{
+    color: #22262A;
+font-family: Proxima Nova;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+}
+.header__items{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.dollr{
+    /* margin-top: 50px; */
+}
+.header__down{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 51px;
+}
+.header__down_logo{
+    width: 134.315px;
+height: 44px;
+}
+.header__ul{
+    display: flex;
+    gap: 97px;
+}
+.ul_li{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.ul_li:hover{
+    color: #40BFFF;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
