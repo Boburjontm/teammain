@@ -1,0 +1,94 @@
+/* Start normalize */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  pad: 0 16px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+/* End normalize */
+
+/* Start Cards section */
+
+.cards {
+  display: flex;
+  gap: 34px;
+}
+
+.card__img {
+  width: 260px;
+  border-radius: 5px;
+  background: var(--image-product-shoes-3, url(<path-to-image>), lightgray -49.541px -68.142px / 133.083% 133.083% no-repeat);
+}
+
+.card {
+  width: 260px;
+}
+
+.cards__title {
+  text-align: center;
+  color: #22262A;
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cards__navbar {
+  margin-left: 25%;
+  margin-top: 26px;
+  margin-bottom: 24px;
+}
+
+.cards__link {
+  margin-left: 35px;
+  color: #262626;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: all ease 0.6s;
+}
+
+.cards__link:hover {
+  border-bottom: 2px solid #33A0FF;
+  padding-bottom: 15px;
+  color: #33A0FF;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card__title {
+  margin: 10px 0px 7px 35px;
+  width: 219.331px;
+  color: var(--neutral-dark, #223263);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+  letter-spacing: 0.5px;
+}
+/* End Cards section */
