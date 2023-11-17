@@ -33,6 +33,7 @@ ul {
 }
 
 .card__img {
+  z-index: -10;
   width: 260px;
   border-radius: 5px;
   background: var(--image-product-shoes-3, url(<path-to-image>), lightgray -49.541px -68.142px / 133.083% 133.083% no-repeat);
@@ -40,6 +41,58 @@ ul {
 
 .card {
   width: 260px;
+  stroke-width: 3px;
+  stroke: #F6F7F8;
+  margin-bottom: 35px;
+}
+
+.buy__img {
+  position: absolute;
+  top: -150px;
+}
+
+.rate__img {
+  margin-left: 22%;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+}
+
+.main__price {
+  margin-left: 20px;
+  color: var(--primary-blue, #40BFFF);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%; /* 32.4px */
+  letter-spacing: 0.5px;
+}
+
+.sale__price {
+  text-decoration: line-through;
+  margin-left: 20px;
+  color: var(--neutral-grey, #9098B1);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.5px;
+  text-decoration-line: strikethrough;
+}
+
+.discount {
+  margin-left: 5px;
+  color: var(--primary-red, #FB7181);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.5px;
 }
 
 .cards__title {
